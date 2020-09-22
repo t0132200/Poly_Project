@@ -29,5 +29,19 @@ namespace WindowsFormsApp2
         public abstract void Execute();
     }
 
+    class StartCommander:Commander
+    {
+       override public void Execute()
+        {
+            Console.WriteLine("Start!!!");
+        }
+    }
 
+    class StopCommander : Commander
+    {
+        override public void Execute()
+        {
+            Console.WriteLine("Stop!!!");
+        }
+    }
 }

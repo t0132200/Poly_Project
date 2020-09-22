@@ -25,7 +25,7 @@ namespace WindowsFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Driver();
+            this.Driver(DriverCommand.Start);
         }
 
         private void Driver(DriverCommand command)

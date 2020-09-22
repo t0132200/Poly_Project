@@ -19,7 +19,13 @@ namespace WindowsFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.Driver(new StartCommander());
+            this.Driver(new StopCommander());
+        }
 
+        private void Driver(Commander command)
+        {
+            command.Execute();
         }
 
     }

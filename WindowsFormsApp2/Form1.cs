@@ -21,5 +21,13 @@ namespace WindowsFormsApp2
         {
 
         }
+
     }
+
+    abstract class Commander
+    {
+        public abstract void Execute();
+    }
+
+
 }

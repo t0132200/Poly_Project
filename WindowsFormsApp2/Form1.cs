@@ -40,6 +40,7 @@ namespace WindowsFormsApp2
        override public void Execute()
         {
             Console.WriteLine("Start!!!");
+            MessageBox.Show("Start!!!");
         }
     }
 
@@ -48,6 +49,7 @@ namespace WindowsFormsApp2
         override public void Execute()
         {
             Console.WriteLine("Stop!!!");
+            MessageBox.Show("Stop!!!");
         }
     }
 }
